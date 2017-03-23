@@ -55,13 +55,13 @@ $left_side   = get_theme_mod( 'post_author_left_side', false );
 		<?php } ?>
 	</header><!-- .entry-header -->
 	<div class="entry-content">
-		<h2 class="post-title">
-			<a href="<?php echo esc_url( get_the_permalink() ); ?>"><?php echo wp_trim_words( get_the_title(), 9 ); ?></a>
+		<h2 <!--class="post-title"-->
+			<a href="<?php //echo esc_url( get_the_permalink() ); ?>"><?php //echo wp_trim_words( get_the_title(), 9 ); ?></a>
 		</h2>
 
 		<div class="entry-meta">
 			<?php
-			shapely_posted_on_no_cat(); ?><!-- post-meta -->
+			//shapely_posted_on_no_cat(); ?><!-- post-meta -->
 		</div>
 
 		<?php if ( $post_author && $left_side ): ?>

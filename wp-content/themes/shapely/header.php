@@ -59,7 +59,7 @@
 	<div id="content" class="main-container">
 		<?php if ( ! is_page_template( 'page-templates/template-home.php' ) ): ?>
 			<div class="header-callout">
-				<?php shapely_top_callout(); ?>
+				<?php //shapely_top_callout(); ?>
 			</div>
 		<?php endif; ?>
 
